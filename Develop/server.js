@@ -39,11 +39,16 @@ app.post('/api/notes', (req, res) => {
 
 // push the new note to the notes array
 
+notesArray.push(newNotes)
 
 // convert the new notes array back to a string (JSON stringify)
+
+JSON.stringify(newNotes)
+
 // write the notes string to the note file
 
 // send the notes array back as a successful response
+
 //res.json(notes);
     });
 });
