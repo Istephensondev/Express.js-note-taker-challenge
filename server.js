@@ -47,10 +47,17 @@ JSON.stringify(newNotes)
 
 // write the notes string to the note file
 
+fs.writeFile("db.json", newNotes, function (err, data) {
+    if (err) {
+        return console.log(err)
+    }
+    console.log(data)
+}
+
 // send the notes array back as a successful response
 
 //res.json(notes);
-    });
+);
 });
 
 const PORT = process.env.PORT || 3000;
