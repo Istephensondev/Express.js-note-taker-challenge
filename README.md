@@ -1,4 +1,4 @@
-# Unit 12 MySQL Homework: Employee Tracker
+# MySQL: Employee Tracker
 
 Developers are often tasked with creating interfaces that make it easy for non-developers to view and interact with information stored in databases. Often these interfaces are known as **C**ontent **M**anagement **S**ystems. In this homework assignment, your challenge is to architect and build a solution for managing a company's employees using node, inquirer, and MySQL.
 
@@ -70,13 +70,7 @@ How do you deliver this? Here are some guidelines:
 
 ### Hints
 
-* You may wish to include a `seed.sql` file to pre-populate your database. This will make development of individual features much easier.
-
-* Focus on getting the basic functionality completed before working on more advanced features.
-
-* Review the week's activities for a refresher on MySQL.
-
-* Check out [SQL Bolt](https://sqlbolt.com/) for some extra MySQL help.
+* You may wish to include a `seed.sql` file to populate your database. This will make development of individual features much easier.
 
 ## Bonus
 
